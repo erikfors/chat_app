@@ -33,7 +33,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pedro"),
+        title: Text("Main Room"),
         actions: [
           DropdownButton(
             underline: Container(),
