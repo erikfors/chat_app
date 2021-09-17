@@ -8,6 +8,7 @@ class AuthForm extends StatefulWidget {
     String email,
     String password,
     String username,
+    File? image,
     bool isLogin,
     BuildContext context,
   ) submitFn;
@@ -52,7 +53,7 @@ class _AuthFormState extends State<AuthForm> {
 
       //send auth request to firebase
       widget.submitFn(
-          _userEmail, _userPassword, _userUsername, _isLogin, context);
+          _userEmail.trim(),_userPassword.trim(), _userUsername.trim(),_userImage, _isLogin, context);
     }
   }
 
