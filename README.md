@@ -1,16 +1,28 @@
-# chat_app
+# Chat App
 
-A new Flutter project.
+A basic chat app where many people can talk.
 
-## Getting Started
+## Info
 
-This project is a starting point for a Flutter application.
+This project is build with flutter...
 
-A few resources to get you started if this is your first Flutter project:
+In this project you are able to log in and send messages into a group, and you get push notifications.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- You are able to log in and sign in to firebase
+- You are able to add a profile picture
+- You can see the messages from all the people
+- Incoming and outgoing messages are separated where you see in the right your message 
+and in the left other people messages
+- You can see each user picture in the messages
+- You can send messages
+- You receive push notification if you are not on the app
+- You can log out
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='app_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/). 
+
